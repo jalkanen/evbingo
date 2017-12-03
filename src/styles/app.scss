@@ -1,0 +1,50 @@
+
+
+#maintable {
+  td {
+    height: 14ex;
+    border: 1px solid black;
+    text-align: center;
+    width: 20%;
+    position: relative;
+
+    .q {
+      position: absolute;
+      right: 4px;
+      bottom: 4px;
+      display: block;
+      border-radius: 16px;
+      width: 24px;
+      height: 24px;
+      border: 1px solid deepskyblue;
+      background: deepskyblue;
+      color: white;
+    }
+
+    &.selected {
+      background: lightgrey;
+    }
+  }
+
+}
+
+.hidden {
+  display: none;
+}
+
+#bingo {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  width: 50%;
+  padding: 48px;
+  background: #cce5ff;
+  box-shadow: 10px 10px 8px 0px darkslategrey;
+
+  .card-title {
+    font-size: 84px;
+    color: orangered;
+    font-weight: 900;
+    text-align: center;
+  }
+}
