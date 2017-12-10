@@ -25,7 +25,8 @@ var contents = [
     { text: "Ei pääse Lappiin ilman kusitaukoa!", file: "lapland" },
     { text: "Kalliit akut joutuu vaihtamaan parin vuoden välein!", file: "batteryfail" },
     { text: "Tesla tekee tappiota joka autolla!", file: "tesla" },
-    { text: "Anttonen sanoi, että...", file: "anttonen" }
+    { text: "Anttonen sanoi, että...", file: "anttonen" },
+    { text: "Biodiesel!", file: "biodiesel" }
 ];
 
 exports.contents = contents;
