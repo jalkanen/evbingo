@@ -18,6 +18,11 @@ painoksen.
 The application is purely client-side Javascript driven. It uses Yarn and Webpack to bundle everything
 together. You'll need Node v8+ and Yarn 1.3+.
 
+
+Install dependencies:
+
+        yarn install
+
 Build:
 
         yarn run build

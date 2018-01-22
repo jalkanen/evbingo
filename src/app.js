@@ -33,7 +33,11 @@ function rebuild() {
 
     $('#maintable td').each(function() {
         let item = content.contents[idx++];
-        $(this).html('<div class="text">'+item.text+'</div><div class="q" data-featherlight="args/'+item.file+'.html">?</div>');
+        let html = '<div class="text">'+item.text+'</div>';
+        if( !item.disabled ) {
+            html += '<div class="q" data-featherlight="args/'+item.file+'.html">?</div>'
+        }
+        $(this).html(html);
     });
 
     $('.q').featherlight();
