@@ -7,7 +7,8 @@ module.exports = {
     entry: [
         path.resolve(__dirname, 'src', 'app.js'),
         path.resolve(__dirname, 'src', 'index.html'),
-        path.resolve(__dirname, 'src/gfx', 'charging_norway.png')
+        path.resolve(__dirname, 'src/gfx', 'charging_norway.png'),
+        path.resolve(__dirname, 'src/gfx', 'slap.jpg')
     ],
     output: {
         path: path.resolve(__dirname, 'output'),
