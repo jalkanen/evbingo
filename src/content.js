@@ -26,7 +26,8 @@ var contents = [
     { text: "Kalliit akut joutuu vaihtamaan parin vuoden välein!", file: "batteryfail" },
     { text: "Tesla tekee tappiota joka autolla!", file: "tesla" },
     { text: "Anttonen sanoi, että...", file: "anttonen" },
-    { text: "Biodiesel!", file: "biodiesel", disabled: true }
+    { text: "Biodiesel!", file: "biodiesel", disabled: true },
+	{ text: "Jos kaikki autot olisivat sähköautoja, niin...", file: "allcars" }
 ];
 
 exports.contents = contents;
